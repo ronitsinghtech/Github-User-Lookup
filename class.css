@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 * {
   padding: 0rem;
   margin: 0rem;
+  font-family: "Outfit";
+  box-sizing: border-box;
 }
 .screen {
   height: 100vh;
@@ -8,10 +11,59 @@
   background-color: #18181b;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.topscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 .title {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
+  align-items: center;
+  color: #a1a1aa;
+  font-size: 1.1rem;
+}
+.input {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  background-color: #27272a;
+  border-radius: 10px;
+  border-color: #3f3f46;
+  border-width: 1.5px;
+  border-style: solid;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-grow: 1;
+}
+#at {
+  color: #71717a;
+  font-size: 23px;
+  line-height: 0%;
+}
+#inputbar {
+  background-color: #27272a;
+  border-width: 0px;
+}
+#inputbar[type="text"] {
+  font-size: 20px;
+  color: #9b9ba3;
+  font-weight: 300;
+  line-height: 0px;
+}
+.submitbutton {
+  background-color: #27272a;
 }
