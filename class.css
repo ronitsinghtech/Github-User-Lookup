@@ -115,7 +115,34 @@
   padding: 1rem;
   border-radius: 5px;
 }
+.topinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.bottominfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
 .textinfo {
   color: #d4d4d8;
   font-weight: 300;
+}
+.themeselector {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 150px;
+  top: 750px;
+}
+#padding {
+  padding: 0.05rem;
+  width: 1.25rem;
+  background-color: #52525b;
 }
