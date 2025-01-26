@@ -35,40 +35,44 @@
         </section>
         <section class="info">
           <section class="topinfo">
-            <section class="oneinfo">
+            <section class="oneinfo" id="repos">
               <img src="./Projects/Box.svg" />
-              <p class="textinfo"><b>0</b> Repositories</p>
+              <p class="textinfo" id="repositories"><b>0</b> Repositories</p>
             </section>
-            <section class="oneinfo">
+            <section class="oneinfo" id="company">
               <img src="./Projects/Building.svg" />
-              <p class="textinfo">@Unknown</p>
+              <p class="textinfo" id="workplace">@Unknown</p>
             </section>
-            <section class="oneinfo">
+            <section class="oneinfo" id="followers">
               <img src="./Projects/2People.svg" />
-              <p class="textinfo"><b>0</b> Followers</p>
+              <p class="textinfo" id="followerscount"><b>0</b> Followers</p>
             </section>
           </section>
           <section class="bottominfo">
-            <section class="oneinfo">
+            <section class="oneinfo" id="following">
               <img src="./Projects/NoteBook.svg" />
-              <p class="textinfo">Following <b>0</b></p>
+              <p class="textinfo" id="followingcount">Following <b>0</b></p>
             </section>
-            <section class="oneinfo">
+            <section class="oneinfo" id="xuserhandle">
               <img src="./Projects/X.svg" />
-              <p class="textinfo">Username</p>
+              <p class="textinfo" id="xusername">Username</p>
             </section>
-            <section class="oneinfo">
+            <section class="oneinfo" id="locate">
               <img src="./Projects/Location.svg" />
-              <p class="textinfo">Username</p>
+              <p class="textinfo" id="location">Username</p>
             </section>
           </section>
         </section>
       </section>
       <!-- Here need to put the absolute positioning code.-->
       <section class="themeselector">
-        <img src="./Projects/DarkMode.svg" />
+        <img
+          src="./Projects/DarkMode.svg"
+          onclick="switchtoDark()"
+          id="darkmodebutton"
+        />
         <div id="padding"></div>
-        <img src="./Projects/LightMode.svg" />
+        <img src="./Projects/LightMode.svg" onclick="switchtoLight()" />
       </section>
     </section>
   </body>
