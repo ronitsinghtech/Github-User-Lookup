@@ -9,7 +9,7 @@ form.onsubmit = async (event) => {
   const userinfo = await getUserInfo(info2);
   try {
     const image = document.querySelector("#profile-pic");
-    image.src = userinfo.avatar_url; //"https://avatars.githubusercontent.com/u/81119190?v=4"; //userinfo.avatar_url;
+    image.src = userinfo.avatar_url;
   } catch {
     alert("Error fetching user data");
     console.log("Error fetching user data");
